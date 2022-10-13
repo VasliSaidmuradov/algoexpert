@@ -8,7 +8,7 @@ class BST {
   }
 }
 
-// #1
+// #1 Time O(h + k) | Space O(h)
 function findKthLargestValueInBst(tree, k) {
   let latestVisited = -1
   let numberOfVisited = 0
@@ -29,7 +29,7 @@ function findKthLargestValueInBst(tree, k) {
   return latestVisited
 }
 
-// #2
+// #2 O(n) time | O(h + k) space
 function findKthLargestValueInBst(tree, k) {
   const arr = []
   
