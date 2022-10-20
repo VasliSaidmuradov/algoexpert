@@ -9,7 +9,6 @@ class BinaryTree:
 
 # #1
 def nodeDepths(root, depth = 0):
-  # Write your code here.
   if root is None:
     return 0
   return depth + nodeDepths(root.left, depth + 1) + nodeDepths(root.right, depth + 1)
