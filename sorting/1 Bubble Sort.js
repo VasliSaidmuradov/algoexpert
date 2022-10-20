@@ -1,3 +1,5 @@
+// Bubble Sort
+
 // #1
 function bubbleSort(array) {
   let isSwaped = false
@@ -18,7 +20,6 @@ function bubbleSort(array) {
 
 const swap = (i, j, arr) => {
   [arr[i], arr[j]] = [arr[j], arr[i]]
-  return arr
 }
 
 
@@ -41,10 +42,4 @@ function bubbleSort(array) {
   }
 
   return array
-}
-
-const swap = (i, j, arr) => {
-  const temp = arr[i]
-  arr[i] = arr[j]
-  arr[j] = temp
 }
