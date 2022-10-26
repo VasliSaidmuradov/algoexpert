@@ -2,7 +2,6 @@
 
 // #1
 function runLengthEncoding(string) {
-  // Write your code here.
   const MAX_LENGTH = 9
   let l = 0
   let r = 0
@@ -21,7 +20,6 @@ function runLengthEncoding(string) {
 
 // #2
 function runLengthEncoding(string) {
-  // Write your code here.
   let ans = ''
   let curRunLength = 1
 

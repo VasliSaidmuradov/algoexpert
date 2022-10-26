@@ -1,7 +1,6 @@
 # Run-Lenght encoding
 
 def runLengthEncoding(string):
-  # Write your code here.
   curRunLen = 1
   ans = ''
   for i in range(1, len(string)):
