@@ -1,4 +1,4 @@
-// Group anagrams
+// Group Anagrams
 
 // #1
 function groupAnagrams(words) {
