@@ -5,7 +5,6 @@ function isPalindrome(string) {
   return string === [...string].reverse().join('')
 }
 
-
 // #2
 // O(n) time | O(1) space
 function isPalindrome(string) {
