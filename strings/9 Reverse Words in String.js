@@ -2,7 +2,6 @@
 
 // #1
 function reverseWordsInString(s) {
-  // Write your code here.
   const res = []
   let i = 0
   let j = 0
